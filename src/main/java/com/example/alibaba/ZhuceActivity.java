@@ -16,9 +16,7 @@ public class ZhuceActivity extends AppCompatActivity {
         ImageView view = (ImageView)findViewById(R.id.backIndex1);
         view.setOnClickListener(new View.OnClickListener(){
             public void onClick(View V){
-                Intent in = new Intent();
-                in.setClass(ZhuceActivity.this,IndexActivity.class);
-                startActivity(in);
+                ZhuceActivity.this.finish();
             }
         });
         TextView view1 = (TextView)findViewById(R.id.denglu);

@@ -16,9 +16,7 @@ public class RegisterActivity extends AppCompatActivity {
         ImageView view = (ImageView)findViewById(R.id.backIndex);
         view.setOnClickListener(new View.OnClickListener(){
             public void onClick(View V){
-                Intent in = new Intent();
-                in.setClass(RegisterActivity.this,IndexActivity.class);
-                startActivity(in);
+                RegisterActivity.this.finish();
             }
         });
         TextView view1 = (TextView)findViewById(R.id.zhuce);
@@ -29,5 +27,14 @@ public class RegisterActivity extends AppCompatActivity {
                 startActivity(in);
             }
         });
+        TextView view2 = (TextView)findViewById(R.id.login);
+        view2.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View V){
+                Intent in = new Intent();
+                in.setClass(RegisterActivity.this,MainActivity.class);
+                startActivity(in);
+            }
+        });
+
     }
 }

@@ -28,7 +28,7 @@
            android:text="登录"
            android:gravity="center"
            android:textColor="#000000"
-           android:textSize="30sp"/>
+           android:textSize="23sp"/>
        <LinearLayout
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
                android:layout_weight="1"
                android:text="注册"
                android:gravity="center"
-               android:textSize="20sp"/>
+               android:textSize="15sp"/>
        </LinearLayout>
    </LinearLayout>
     <TextView
@@ -49,11 +49,12 @@
         android:background="#cccccc"
         />
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:layout_weight="1"
+        android:layout_weight="0.5"
         android:src="@drawable/alibaba"/>
     <EditText
         android:layout_marginTop="10dp"
@@ -71,6 +72,7 @@
         android:background="@drawable/password"
         android:hint="密码"/>
     <Button
+        android:id="@+id/login"
         android:layout_weight="0.5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
