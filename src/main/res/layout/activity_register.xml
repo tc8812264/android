@@ -16,6 +16,7 @@
        android:orientation="horizontal"
        android:layout_weight="0.5">
        <ImageView
+           android:id="@+id/backIndex"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:layout_weight="1"
@@ -33,6 +34,7 @@
            android:layout_height="wrap_content"
            android:layout_weight="1">
            <TextView
+               android:id="@+id/zhuce"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:layout_weight="1"
@@ -51,7 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:layout_weight="2"
+        android:layout_weight="1"
         android:src="@drawable/alibaba"/>
     <EditText
         android:layout_marginTop="10dp"
